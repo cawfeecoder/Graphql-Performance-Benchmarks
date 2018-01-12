@@ -30,4 +30,9 @@ only the data it needs, in the JSON format it expects. Moreover, it takes care o
 client having to know what data it needs ahead of time during development(providing GraphQL queries allows a client a bit of
 free reign - within a permissions/restruction metholodogy - to get the data it needs without the development process of
 exponential increasing API endpoints). Moreover, we live in an age of instant gratification... anything that makes an application
-render faster/more efficently is paramount to owning the user experience.
+render faster/more efficently is paramount to owning the user experience. Plus, if you provide a "proxying" server for the GraphQL requests, you can do interesting things with data resolution(microservice architecture, etc.)
+
+NodeJS Proxy Impl: https://github.com/nfrush/healthcare-graphql-express-http2
+Golang Backend Impl: https://github.com/nfrush/graphql-healthcare-iris
+Elixir Phoenix w/ Absinthe Impl: https://github.com/nfrush/healthcare-phoenix-graphql
+Elixir Backend Impl:
